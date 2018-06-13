@@ -1,0 +1,9 @@
+To run in command line:
+1. Set classpath in ~/.bash_profile file
+export CLASSPATH=/Users/ylee/java-lib/*:/Users/ylee/java-lib/selenium-java-3.11.0/*:/Users/ylee/java-lib/selenium-java-3.11.0/libs/*:$CLASSPATH
+source ~/.bash_profile
+
+2. Run the program in /Users/ylee/eclipse-workspace/selenium-wd-1/bin folder
+java tests.Seledriver
+
+==================================
